@@ -1,5 +1,6 @@
 
 import { Aside } from './components/Aside'
+import Card from './components/Card'
 import { Container } from './components/Container'
 import { Main } from './components/Main'
 import { SearchInput } from './components/Searchinput'
@@ -19,6 +20,40 @@ function App() {
             Veja como estão suas finanças hoje.
           </Typography>
         </div>
+        <section>
+          <Card>
+            <Card.Header>
+              Orçamento diário disponível:
+            </Card.Header>
+            <Card.Body>
+              R$200
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Header>
+              Orçamento diário disponível:
+            </Card.Header>
+            <Card.Body>
+              R$200
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Header>
+              Orçamento diário disponível:
+            </Card.Header>
+            <Card.Body>
+              R$200
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Header>
+              Orçamento diário disponível:
+            </Card.Header>
+            <Card.Body>
+              R$200
+            </Card.Body>
+          </Card>
+        </section>
       </Main>
     </Container>
   )
