@@ -15,7 +15,7 @@ export const Transactions = () => {
 
     return (
         <>
-            <ul>
+            <ul className={styles.list}>
                 {items.map((transactionItem, index) => {
                     return (
                         <li key={index}>
