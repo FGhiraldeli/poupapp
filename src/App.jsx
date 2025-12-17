@@ -8,6 +8,7 @@ import { SavingsStatus } from './components/SavingsStatus'
 import { SearchInput } from './components/Searchinput'
 import { Typography } from './components/Typography'
 import styles from './app.module.css'
+import { Transactions } from './components/Transactions'
 
 function App() {
   return (
@@ -43,10 +44,10 @@ function App() {
             </Card>
             <Card>
               <Card.Header>
-                Orçamento diário disponível:
+                Movimentação financeira
               </Card.Header>
               <Card.Body>
-                R$200
+                <Transactions />
               </Card.Body>
             </Card>
             <Card>
